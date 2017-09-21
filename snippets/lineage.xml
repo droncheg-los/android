@@ -13,15 +13,14 @@
   <!--<project path="external/koush/ion" name="LineageOS/ion" />-->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
-  <!--<project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
-  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
+  <!--<project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
   <project path="external/lzo" name="LineageOS/android_external_lzo" />-->
   <project path="external/nano" name="LineageOS/android_external_nano" />
-  <!--<project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
+  <!--<project path="external/p7zip" name="LineageOS/android_external_p7zip" />-->
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" />
+  <!--<project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
   <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
@@ -59,8 +58,8 @@
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" /> -->
 
-  <!-- CodeAurora additions
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />-->
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
@@ -107,8 +106,11 @@
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />-->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
-  <!--<project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
-  <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" /> -->
+  <!--<project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />-->
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <!--<project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" /> -->
 
   <!-- Infrastructure -->
   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
