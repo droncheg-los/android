@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="vendor/sony/nicki" name="Nicklas373/vendor_sony_nicki" remote="github" revision="los-15.0" />
+  <project path="vendor/sony/nicki" name="droncheg/vendor_sony_nicki" remote="github" revision="los-15.0" />
   <project path="device/sony/nicki" name="Nicklas373/android_device_sony_nicki" remote="github"  revision="los-15.0" />
   <project path="device/sony/common" name="droncheg/android_device_sony_common" remote="github"  revision="cm-14.1" />
-  <project path="kernel/sony/msm8x27" name="droncheg/android_kernel_sony_msm8x27-orig" remote="github"  revision="cm-14.1" />
+  <project path="kernel/sony/msm8x27" name="Nicklas373/android_kernel_sony_msm8x27" remote="github"  revision="los-15.0" />
 </manifest>
