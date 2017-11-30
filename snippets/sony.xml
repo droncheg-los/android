@@ -7,4 +7,8 @@
   <project path="device/sony/nicki" name="droncheg/android_device_sony_nicki" remote="github" />
   <project path="device/sony/common" name="droncheg/android_device_sony_common" remote="github" />
   <project path="kernel/sony/msm8x27" name="droncheg/android_kernel_sony_msm8x27-orig" remote="github" />
+
+  <!-- fix for Xperia M network choices -->
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <project path="packages/services/Telephony" name="droncheg/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" revision="cm-14.1" />
 </manifest>
