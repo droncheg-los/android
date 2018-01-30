@@ -9,8 +9,8 @@
   <project path="kernel/sony/msm8x27" name="droncheg/android_kernel_sony_msm8x27-orig" remote="github" />
 
   <!-- fix for Xperia M network choices -->
-<!--  <remove-project name="LineageOS/android_packages_services_Telephony" />
+ <remove-project name="LineageOS/android_packages_services_Telephony" />
   <project path="packages/services/Telephony" name="droncheg/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" revision="cm-14.1" />
   <remove-project name="LineageOS/android_packages_apps_CarrierConfig" />
-  <project path="packages/apps/CarrierConfig" name="droncheg/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" revision="cm-14.1" /> -->
+  <project path="packages/apps/CarrierConfig" name="droncheg/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" revision="cm-14.1" />
 </manifest>
