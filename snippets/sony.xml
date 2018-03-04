@@ -2,6 +2,6 @@
 <manifest>
   <project path="vendor/sony/nicki" name="Nicklas373/vendor_sony_nicki" remote="github" revision="rebase" />
   <project path="device/sony/nicki" name="Nicklas373/android_device_sony_nicki" remote="github"  revision="Lineage-OS-15.0" />
-  <project path="device/sony/common" name="droncheg/android_device_sony_common" remote="github"  revision="cm-14.1" />
+  <project path="device/sony/common" name="LineageOS/android_device_sony_common" remote="github"  revision="lineage-15.1" />
   <project path="kernel/sony/msm8x27" name="Nicklas373/android_kernel_sony_msm8x27" remote="github"  revision="Lineage-15.0" />
 </manifest>
